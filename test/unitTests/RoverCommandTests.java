@@ -19,7 +19,7 @@ public class RoverCommandTests {
 	@Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {
-                 { "N", "R", "E" }, { "N", "L", "W" }
+                 { "N", "R", "E" }, { "N", "L", "W" }, { "E", "L", "N" }, { "E", "R", "S" }
            });
     }
     
